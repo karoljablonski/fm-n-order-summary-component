@@ -5,5 +5,15 @@
 }
 
 html {
-    font-size: 10px;
+    background-color: hsl(225, 100%, 94%);
+    font-family: 'Red Hat Display', sans-serif
 }
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+//font-family: 'Red Hat Display', sans-serif;

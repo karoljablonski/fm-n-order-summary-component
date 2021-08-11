@@ -1,3 +1,25 @@
-div {
-    width: 100px;
+div.wrapper {
+    width: 95vw;
+    height: 80vh;
+    border-radius: 20px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    // padding: 30px;
+    header {
+        height: 35%;
+        width: 100%;
+        border-radius: 20px 20px 0 0;
+        background: url(/images/illustration-hero.svg) no-repeat 50% 50%;
+        // background-size: 90%;
+
+    }
+
+    h1 {
+        text-align: center;
+        font-weight: 900;
+        color: hsl(223, 47%, 23%);
+    }
 }

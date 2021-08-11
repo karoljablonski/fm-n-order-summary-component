@@ -6,10 +6,50 @@
 }
 
 html {
-  font-size: 10px;
+  background-color: #e0e8ff;
+  font-family: 'Red Hat Display', sans-serif;
 }
 
-div {
-  width: 100px;
+body {
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+div.wrapper {
+  width: 95vw;
+  height: 80vh;
+  border-radius: 20px;
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+div.wrapper header {
+  height: 35%;
+  width: 100%;
+  border-radius: 20px 20px 0 0;
+  background: url(/images/illustration-hero.svg) no-repeat 50% 50%;
+}
+
+div.wrapper h1 {
+  text-align: center;
+  font-weight: 900;
+  color: #1f2f56;
 }
 /*# sourceMappingURL=style.css.map */
