@@ -23,7 +23,7 @@ body {
           align-items: center;
 }
 
-@media (min-width: var(--mediaWidth)) {
+@media (min-width: 1000px) {
   body {
     background-color: transparent;
   }
@@ -37,7 +37,7 @@ body .desktop-background {
   left: 0;
 }
 
-@media (min-width: var(--mediaWidth)) {
+@media (min-width: 1000px) {
   body .desktop-background {
     display: block;
   }
