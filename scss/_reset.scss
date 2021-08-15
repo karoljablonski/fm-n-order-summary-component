@@ -25,9 +25,11 @@ body {
         position: absolute;
         top: 0;
         left: 0;
+        right: 0;
 
         @media(min-width: 1000px) {
             display: block;
+            width: 100%;
         }
     }
 }
