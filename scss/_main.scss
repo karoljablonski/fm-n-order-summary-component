@@ -1,11 +1,21 @@
 div.wrapper {
-    width: 95vw;
-    height: 80vh;
+    width: 90vw;
+    height: 90vh;
     border-radius: 20px;
     background-color: white;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+
+    @media (min-width: 1000px) {
+        width: 450px;
+    }
+
+    &>* {
+        text-align: center;
+        margin: 0 auto;
+        // padding: 5px;
+    }
 
     // padding: 30px;
     header {
@@ -13,13 +23,106 @@ div.wrapper {
         width: 100%;
         border-radius: 20px 20px 0 0;
         background: url(/images/illustration-hero.svg) no-repeat 50% 50%;
-        // background-size: 90%;
 
+        // background-size: 90%;
+        @media(min-width: 1000px) {
+            flex-basis: 220px;
+        }
     }
 
     h1 {
         text-align: center;
         font-weight: 900;
         color: hsl(223, 47%, 23%);
+        font-size: 1.6rem;
+        margin-top: 35px;
+
+        @media(min-width: 1000px) {
+            margin: 0;
+        }
+    }
+
+    p.describe {
+        font-size: 1rem;
+        padding: 0 40px;
+        line-height: 1.6;
+        color: hsl(224, 23%, 55%);
+
+        @media(min-width: 1000px) {
+            padding: 0 70px;
+        }
+    }
+
+    div.offer {
+        width: 80%;
+        background-color: hsl(225, 100%, 98%);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 10px;
+        border-radius: 15px;
+
+        @media(min-width: 1000px) {
+            padding: 20px 30px;
+        }
+
+        div.element {
+            margin-left: -30px;
+
+            @media(min-width: 1000px) {
+                margin-left: -55px;
+            }
+
+            p.title {
+                color: hsl(223, 47%, 23%);
+                font-weight: 900;
+            }
+
+            p.price {
+                color: hsl(224, 23%, 55%);
+            }
+        }
+
+        a {
+            color: blue;
+        }
+    }
+
+    div.button-holder {
+        width: 90%;
+        margin-bottom: 10px;
+
+        @media(min-width: 1000px) {
+            width: 80%;
+            margin-bottom: 20px;
+        }
+
+        button.pay {
+            background-color: hsl(245, 75%, 52%);
+            border: none;
+            color: white;
+            width: 100%;
+            padding: 15px 0;
+            border-radius: 10px;
+            font-weight: 900;
+            letter-spacing: 0.1px;
+            font-size: 0.9rem;
+            box-shadow: 0 20px 50px -5px hsl(224, 23%, 55%);
+        }
+
+        button.cancel {
+            background-color: transparent;
+            padding: 15px 0;
+            border-radius: 10px;
+            font-weight: 900;
+            letter-spacing: 0.1px;
+            font-size: 0.9rem;
+            color: hsl(224, 23%, 55%);
+            border: none;
+        }
     }
 }
+
+// @media (min-width: 376px){
+
+// }

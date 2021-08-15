@@ -23,9 +23,29 @@ body {
           align-items: center;
 }
 
+@media (min-width: var(--mediaWidth)) {
+  body {
+    background-color: transparent;
+  }
+}
+
+body .desktop-background {
+  display: none;
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+@media (min-width: var(--mediaWidth)) {
+  body .desktop-background {
+    display: block;
+  }
+}
+
 div.wrapper {
-  width: 95vw;
-  height: 80vh;
+  width: 90vw;
+  height: 90vh;
   border-radius: 20px;
   background-color: white;
   display: -webkit-box;
@@ -40,6 +60,17 @@ div.wrapper {
           justify-content: space-between;
 }
 
+@media (min-width: 1000px) {
+  div.wrapper {
+    width: 450px;
+  }
+}
+
+div.wrapper > * {
+  text-align: center;
+  margin: 0 auto;
+}
+
 div.wrapper header {
   height: 35%;
   width: 100%;
@@ -47,9 +78,119 @@ div.wrapper header {
   background: url(/images/illustration-hero.svg) no-repeat 50% 50%;
 }
 
+@media (min-width: 1000px) {
+  div.wrapper header {
+    -ms-flex-preferred-size: 220px;
+        flex-basis: 220px;
+  }
+}
+
 div.wrapper h1 {
   text-align: center;
   font-weight: 900;
   color: #1f2f56;
+  font-size: 1.6rem;
+  margin-top: 35px;
+}
+
+@media (min-width: 1000px) {
+  div.wrapper h1 {
+    margin: 0;
+  }
+}
+
+div.wrapper p.describe {
+  font-size: 1rem;
+  padding: 0 40px;
+  line-height: 1.6;
+  color: #7280a7;
+}
+
+@media (min-width: 1000px) {
+  div.wrapper p.describe {
+    padding: 0 70px;
+  }
+}
+
+div.wrapper div.offer {
+  width: 80%;
+  background-color: #f5f7ff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 20px 10px;
+  border-radius: 15px;
+}
+
+@media (min-width: 1000px) {
+  div.wrapper div.offer {
+    padding: 20px 30px;
+  }
+}
+
+div.wrapper div.offer div.element {
+  margin-left: -30px;
+}
+
+@media (min-width: 1000px) {
+  div.wrapper div.offer div.element {
+    margin-left: -55px;
+  }
+}
+
+div.wrapper div.offer div.element p.title {
+  color: #1f2f56;
+  font-weight: 900;
+}
+
+div.wrapper div.offer div.element p.price {
+  color: #7280a7;
+}
+
+div.wrapper div.offer a {
+  color: blue;
+}
+
+div.wrapper div.button-holder {
+  width: 90%;
+  margin-bottom: 10px;
+}
+
+@media (min-width: 1000px) {
+  div.wrapper div.button-holder {
+    width: 80%;
+    margin-bottom: 20px;
+  }
+}
+
+div.wrapper div.button-holder button.pay {
+  background-color: #3829e0;
+  border: none;
+  color: white;
+  width: 100%;
+  padding: 15px 0;
+  border-radius: 10px;
+  font-weight: 900;
+  letter-spacing: 0.1px;
+  font-size: 0.9rem;
+  -webkit-box-shadow: 0 20px 50px -5px #7280a7;
+          box-shadow: 0 20px 50px -5px #7280a7;
+}
+
+div.wrapper div.button-holder button.cancel {
+  background-color: transparent;
+  padding: 15px 0;
+  border-radius: 10px;
+  font-weight: 900;
+  letter-spacing: 0.1px;
+  font-size: 0.9rem;
+  color: #7280a7;
+  border: none;
 }
 /*# sourceMappingURL=style.css.map */
