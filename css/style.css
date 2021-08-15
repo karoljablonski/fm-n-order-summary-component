@@ -155,6 +155,7 @@ div.wrapper div.offer div.element p.price {
 
 div.wrapper div.offer a {
   color: blue;
+  cursor: pointer;
 }
 
 div.wrapper div.button-holder {
@@ -181,6 +182,11 @@ div.wrapper div.button-holder button.pay {
   font-size: 0.9rem;
   -webkit-box-shadow: 0 20px 50px -5px #7280a7;
           box-shadow: 0 20px 50px -5px #7280a7;
+  cursor: pointer;
+}
+
+div.wrapper div.button-holder button.pay:hover {
+  background-color: #180c97;
 }
 
 div.wrapper div.button-holder button.cancel {
@@ -192,5 +198,6 @@ div.wrapper div.button-holder button.cancel {
   font-size: 0.9rem;
   color: #7280a7;
   border: none;
+  cursor: pointer;
 }
 /*# sourceMappingURL=style.css.map */
