@@ -45,6 +45,12 @@ body .desktop-background {
   }
 }
 
+@media (min-width: 1440px) {
+  body .desktop-background {
+    display: none;
+  }
+}
+
 div.wrapper {
   width: 90vw;
   height: 90vh;
