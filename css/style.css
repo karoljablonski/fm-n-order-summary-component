@@ -52,7 +52,7 @@ body .desktop-background {
 }
 
 div.wrapper {
-  width: 90vw;
+  width: clamp(400px, 50vw, 450px);
   height: 90vh;
   border-radius: 20px;
   background-color: white;
@@ -74,6 +74,13 @@ div.wrapper {
   }
 }
 
+@media (max-width: 420px) {
+  div.wrapper {
+    width: 90vw;
+    min-width: 325px;
+  }
+}
+
 div.wrapper > * {
   text-align: center;
   margin: 0 auto;
@@ -84,13 +91,8 @@ div.wrapper header {
   width: 100%;
   border-radius: 20px 20px 0 0;
   background: url(/images/illustration-hero.svg) no-repeat 50% 50%;
-}
-
-@media (min-width: 1000px) {
-  div.wrapper header {
-    -ms-flex-preferred-size: 220px;
-        flex-basis: 220px;
-  }
+  -ms-flex-preferred-size: 220px;
+      flex-basis: 220px;
 }
 
 div.wrapper h1 {
