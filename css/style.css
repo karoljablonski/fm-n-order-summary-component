@@ -51,7 +51,7 @@ body .desktop-background {
   }
 }
 
-div.wrapper {
+main {
   width: clamp(400px, 50vw, 450px);
   height: 90vh;
   border-radius: 20px;
@@ -69,24 +69,24 @@ div.wrapper {
 }
 
 @media (min-width: 1000px) {
-  div.wrapper {
+  main {
     width: 450px;
   }
 }
 
 @media (max-width: 420px) {
-  div.wrapper {
+  main {
     width: 90vw;
     min-width: 325px;
   }
 }
 
-div.wrapper > * {
+main > * {
   text-align: center;
   margin: 0 auto;
 }
 
-div.wrapper header {
+main header {
   height: 33%;
   width: 100%;
   border-radius: 20px 20px 0 0;
@@ -95,7 +95,7 @@ div.wrapper header {
       flex-basis: 220px;
 }
 
-div.wrapper h1 {
+main h1 {
   text-align: center;
   font-weight: 900;
   color: #1f2f56;
@@ -104,12 +104,12 @@ div.wrapper h1 {
 }
 
 @media (min-width: 1000px) {
-  div.wrapper h1 {
+  main h1 {
     margin: 0;
   }
 }
 
-div.wrapper p.describe {
+main p.describe {
   font-size: 1rem;
   padding: 0 40px;
   line-height: 1.6;
@@ -117,12 +117,12 @@ div.wrapper p.describe {
 }
 
 @media (min-width: 1000px) {
-  div.wrapper p.describe {
+  main p.describe {
     padding: 0 70px;
   }
 }
 
-div.wrapper div.offer {
+main div.offer {
   width: 80%;
   background-color: #f5f7ff;
   display: -webkit-box;
@@ -139,48 +139,48 @@ div.wrapper div.offer {
 }
 
 @media (min-width: 1000px) {
-  div.wrapper div.offer {
+  main div.offer {
     padding: 20px 30px;
   }
 }
 
-div.wrapper div.offer div.element {
+main div.offer div.element {
   margin-left: -30px;
 }
 
 @media (min-width: 1000px) {
-  div.wrapper div.offer div.element {
+  main div.offer div.element {
     margin-left: -55px;
   }
 }
 
-div.wrapper div.offer div.element p.title {
+main div.offer div.element p.title {
   color: #1f2f56;
   font-weight: 900;
 }
 
-div.wrapper div.offer div.element p.price {
+main div.offer div.element p.price {
   color: #7280a7;
 }
 
-div.wrapper div.offer a {
+main div.offer a {
   color: blue;
   cursor: pointer;
 }
 
-div.wrapper div.button-holder {
+main div.button-holder {
   width: 90%;
   margin-bottom: 10px;
 }
 
 @media (min-width: 1000px) {
-  div.wrapper div.button-holder {
+  main div.button-holder {
     width: 80%;
     margin-bottom: 20px;
   }
 }
 
-div.wrapper div.button-holder button.pay {
+main div.button-holder button.pay {
   background-color: #3829e0;
   border: none;
   color: white;
@@ -195,11 +195,11 @@ div.wrapper div.button-holder button.pay {
   cursor: pointer;
 }
 
-div.wrapper div.button-holder button.pay:hover {
+main div.button-holder button.pay:hover {
   background-color: #180c97;
 }
 
-div.wrapper div.button-holder button.cancel {
+main div.button-holder button.cancel {
   background-color: transparent;
   padding: 15px 0;
   border-radius: 10px;
