@@ -14,6 +14,7 @@ This is a solution to the [Order summary card challenge on Frontend Mentor](http
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
+- [Feedback](#feedback)
 
 
 ## Overview
@@ -26,13 +27,15 @@ Users should be able to:
 
 ### Screenshot
 
-design/desktop.png
-design/mobile.png
+https://github.com/karoljablonski/fm-n-order-summary-component/blob/main/design/desktop.png
+https://github.com/karoljablonski/fm-n-order-summary-component/blob/main/design/mobile.png
 
 
 ### Links
 
-To check out my solutions, you need to run project on your IDE and simply run local server.
+To check out my solutions, you need to run project on your IDE and simply run local server
+OR:
+https://karoljablonski.github.io/fm-n-order-summary-component/
 
 ## My process
 
@@ -46,7 +49,7 @@ To check out my solutions, you need to run project on your IDE and simply run lo
 
 ### What I learned
 
-I learned to pay more attention for details and be more patient especially about "easy" stuff to do. I reminded myself how to run sass pre-processor on project. It's nice to have visual sample, so I could compare my work to what it should look like. 
+I learned to pay more attention for details and be more patient especially about "easy" stuff to do. I reminded myself how to run sass pre-processor on project. It's nice to have visual sample, so I could compare my work to what it should look like. Also it's my first README.md I created.
 
 
 
@@ -64,6 +67,9 @@ Also get better knowing of all flex and grid properties.
 
 - Website - [Karol Jabłoński]
 - Frontend Mentor - [@karoljablonski](https://www.frontendmentor.io/profile/karoljablonski)
+- GitHub Profile - https://github.com/karoljablonski
 
+## Feedback
 
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
+- If you have anything to tell me about this piece of code [#codereview] feel free to comment right there:
+/link here after project submitted to fronendmentor.io/
