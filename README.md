@@ -71,5 +71,4 @@ Also get better knowing of all flex and grid properties.
 
 ## Feedback
 
-- If you have anything to tell me about this piece of code [#codereview] feel free to comment right there:
-/link here after project submitted to fronendmentor.io/
+- If you have anything to tell me about this piece of code [#codereview] feel free to comment right there: https://www.frontendmentor.io/solutions/html-css-mobile-first-using-sass-wjbAB0VSK
